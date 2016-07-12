@@ -1,0 +1,6 @@
+{
+  "name": "Robotraider",
+  "tagline": "Simple script that retrieves the robots.txt file an opens disallowed pages",
+  "body": "![RobotRaider logo](http://alperbasaran.com/wp-content/uploads/2016/07/RobotRaider-777x437.jpg)\r\n\r\nrobotraider.sh is a simple script that retrieves the robots.txt file an opens disallowed pages\r\n\r\nRobots.txt files sometime contain interesting information. During a penetration test we usually check the links mentioned as “disallow” on robots.txt files as these are the files that are trying to be hidden from search engines.\r\nWe usually run into login pages, older versions of the website or even strange and unsecured web services.\r\n\r\nThis script performs a host query first and tries to pull the robots.txt file.\r\nIf successful it will open all disallowed (e.g. links they don’t want search engines to know about) links on seperate tabs in Iceweasel.\r\n\r\nThis script was tested on Kali and Ubuntu Linux\r\n\r\nThe name was inspired by Douglas Berdeaux’s book “Raiding the Wireless Empire”",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
