@@ -10,7 +10,7 @@ function intro {
 	printf "\nCode mostly by WeakNet Labs  - Douglas Berdeaux\n\n"
 }
 function getDomain { 
-	regexp="[a-zA-Z0-9_-]\.[a-zA-Z]\.[a-zA-Z]";
+	regexp="[a-zA-Z0-9_-]\.[a-zA-Z]\.[a-zA-Z]"; #works with domains such as co.uk, co.il or com.tr but not .fr, .tk and the like
 	printf "Please enter Domain name (format: domain.com): "
 	read domain
 	#check for empty domain name
